@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Awesome Icons</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .icon {
+            font-size: 40px;
+            margin: 20px;
+            color: #333;
+        }
+        .contact-icons {
+            margin-top: 50px;
+        }
+        .contact-icons .icon {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Programming Icons</h2>
+    <!-- HTML Icon -->
+    <i class="fa-brands fa-html5 icon"></i>
+
+    <!-- CSS Icon -->
+    <i class="fa-brands fa-css3-alt icon"></i>
+
+    <!-- JavaScript Icon -->
+    <i class="fa-brands fa-js icon"></i>
+
+    <!-- React JS Icon -->
+    <i class="fa-brands fa-react icon"></i>
+
+    <!-- C++ Icon -->
+    <i class="fa-solid fa-code icon"></i> <!-- No direct C++ icon, using code symbol -->
+
+    <!-- GitHub Icon -->
+    <i class="fa-brands fa-github icon"></i>
+
+    <!-- Java Icon -->
+    <i class="fa-brands fa-java icon"></i>
+
+    <!-- Bootstrap Icon -->
+    <i class="fa-brands fa-bootstrap icon"></i>
+
+    <h2>Contact Section</h2>
+    <div class="contact-icons">
+        <!-- LinkedIn -->
+        <a href="https://linkedin.com" target="_blank">
+            <i class="fa-brands fa-linkedin icon"></i>
+        </a>
+
+        <!-- Telegram -->
+        <a href="https://t.me" target="_blank">
+            <i class="fa-brands fa-telegram icon"></i>
+        </a>
+
+        <!-- Phone Call -->
+        <a href="tel:+123456789">
+            <i class="fa-solid fa-phone icon"></i>
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com" target="_blank">
+            <i class="fa-brands fa-github icon"></i>
+        </a>
+
+        <!-- Gmail -->
+        <a href="mailto:your-email@gmail.com">
+            <i class="fa-solid fa-envelope icon"></i>
+        </a>
+    </div>
+
+</body>
+</html>
